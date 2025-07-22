@@ -2,6 +2,18 @@ import SwiftUI
 
 struct CountView: View {
     var body: some View {
-        Text("")
+        VStack {
+            Button("+1") {
+                print("Count One..")
+            }
+            .foregroundStyle(.black)
+            .buttonStyle(.bordered)
+        }
     }
+}
+
+// MARK: - Preview
+
+#Preview {
+    CountView()
 }
