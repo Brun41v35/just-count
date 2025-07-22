@@ -9,7 +9,7 @@ struct CounterViewModelTests {
 
         sut.incrementOne()
 
-        #expect(sut.number == 1)
+        #expect(sut.number == 1, "Expect to increment one more")
     }
 
     @Test
@@ -18,7 +18,7 @@ struct CounterViewModelTests {
 
         sut.incrementFive()
 
-        #expect(sut.number == 5)
+        #expect(sut.number == 5, "Expect to increment five more")
     }
 
     @Test
@@ -27,7 +27,7 @@ struct CounterViewModelTests {
 
         sut.decrementFive()
 
-        #expect(sut.number == -5)
+        #expect(sut.number == -5, "Expect to decrement five more")
     }
 
     @Test
@@ -36,7 +36,7 @@ struct CounterViewModelTests {
 
         sut.reset()
 
-        #expect(sut.number == 0)
+        #expect(sut.number == 0, "Expect to reset the count")
     }
 
     @Test
@@ -45,7 +45,7 @@ struct CounterViewModelTests {
 
         let receivedValue = sut.handleNumberStatus()
 
-        #expect(receivedValue == "Positive")
+        #expect(receivedValue == "Positive", "Expect that `receivedValue` be Positive")
     }
 
     @Test
@@ -55,6 +55,6 @@ struct CounterViewModelTests {
 
         let receivedValue = sut.handleNumberStatus()
 
-        #expect(receivedValue == "Negative")
+        #expect(receivedValue == "Negative", "Expect that `receivedValue` be Negative")
     }
 }
