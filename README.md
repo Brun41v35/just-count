@@ -8,12 +8,6 @@ Just Count is a simple iOS application that allows users to increment and decrem
 - Reset the counter to zero
 - Displays whether the current value is positive or negative
 
-## Screenshots
-
-| Positive Value | Negative Value |
-|:--------------:|:-------------:|
-| ![Positive Value](relative/path/to/first_image.png) | ![Negative Value](relative/path/to/second_image.png) |
-
 ## Purpose
 
 This project was created as a learning exercise to explore and implement unit testing in Swift. It provides a straightforward interface to focus on testing logic and UI behavior.
