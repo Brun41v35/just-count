@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 7EBA86822E2F184500176CA0;
 			remoteInfo = JustCount;
 		};
-		7EBA869E2E2F184800176CA0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7EBA867B2E2F184500176CA0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7EBA86822E2F184500176CA0;
-			remoteInfo = JustCount;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7EBA86832E2F184500176CA0 /* JustCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBA86932E2F184800176CA0 /* JustCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EBA869D2E2F184800176CA0 /* JustCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		7EBA86962E2F184800176CA0 /* JustCountTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JustCountTests;
-			sourceTree = "<group>";
-		};
-		7EBA86A02E2F184800176CA0 /* JustCountUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JustCountUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EBA869A2E2F184800176CA0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				7EBA86852E2F184500176CA0 /* JustCount */,
 				7EBA86962E2F184800176CA0 /* JustCountTests */,
-				7EBA86A02E2F184800176CA0 /* JustCountUITests */,
 				7EBA86842E2F184500176CA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				7EBA86832E2F184500176CA0 /* JustCount.app */,
 				7EBA86932E2F184800176CA0 /* JustCountTests.xctest */,
-				7EBA869D2E2F184800176CA0 /* JustCountUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = 7EBA86932E2F184800176CA0 /* JustCountTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7EBA869C2E2F184800176CA0 /* JustCountUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EBA86AD2E2F184800176CA0 /* Build configuration list for PBXNativeTarget "JustCountUITests" */;
-			buildPhases = (
-				7EBA86992E2F184800176CA0 /* Sources */,
-				7EBA869A2E2F184800176CA0 /* Frameworks */,
-				7EBA869B2E2F184800176CA0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7EBA869F2E2F184800176CA0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7EBA86A02E2F184800176CA0 /* JustCountUITests */,
-			);
-			name = JustCountUITests;
-			packageProductDependencies = (
-			);
-			productName = JustCountUITests;
-			productReference = 7EBA869D2E2F184800176CA0 /* JustCountUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.0;
 					};
 					7EBA86922E2F184800176CA0 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 7EBA86822E2F184500176CA0;
-					};
-					7EBA869C2E2F184800176CA0 = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 7EBA86822E2F184500176CA0;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				7EBA86822E2F184500176CA0 /* JustCount */,
 				7EBA86922E2F184800176CA0 /* JustCountTests */,
-				7EBA869C2E2F184800176CA0 /* JustCountUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7EBA86912E2F184800176CA0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EBA869B2E2F184800176CA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EBA86992E2F184800176CA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = 7EBA86822E2F184500176CA0 /* JustCount */;
 			targetProxy = 7EBA86942E2F184800176CA0 /* PBXContainerItemProxy */;
-		};
-		7EBA869F2E2F184800176CA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7EBA86822E2F184500176CA0 /* JustCount */;
-			targetProxy = 7EBA869E2E2F184800176CA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,40 +415,6 @@
 			};
 			name = Release;
 		};
-		7EBA86AE2E2F184800176CA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QXX4852TTD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.JustCountUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JustCount;
-			};
-			name = Debug;
-		};
-		7EBA86AF2E2F184800176CA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QXX4852TTD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = brunosilva.JustCountUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JustCount;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,15 +441,6 @@
 			buildConfigurations = (
 				7EBA86AB2E2F184800176CA0 /* Debug */,
 				7EBA86AC2E2F184800176CA0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7EBA86AD2E2F184800176CA0 /* Build configuration list for PBXNativeTarget "JustCountUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EBA86AE2E2F184800176CA0 /* Debug */,
-				7EBA86AF2E2F184800176CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
